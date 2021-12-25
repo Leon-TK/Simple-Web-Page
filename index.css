@@ -1,0 +1,35 @@
+*{ margin: 0%; padding: 0%;}
+
+h1{font:bold 20px Tahoma; color:royalblue;}
+section, header, footer, hgroup, aside, nav, article {display: block;}
+body{text-align: center;}
+#div_main {border: solid rgb(255, 251, 0); width: 80%; margin: 5% auto; text-align: left;}
+#header_main{background-color: seagreen; border: solid blue; padding: 4%;}
+#div_mainMenu{background-color: steelblue; text-align: center; border: hotpink solid;}
+#nav_mainMenu li{display: inline-block; list-style: none; padding: 0.5%; font: bold 15px Tahoma; color: hotpink;}
+#nav_mainMenu ul{color:grey}
+#section_main{border-top: rgb(19, 226, 19) solid;border-bottom: rgb(19, 226, 19) solid;}
+#div_news{border: olive solid; width: 60%; color: blue ;font: bold; display: block; list-style: none; float:left}
+#div_news h3{color :red; margin-bottom: 1%;}
+#div_news div{margin-bottom: 1%;}
+
+.aside_news{
+  border: rgb(168, 248, 47) solid; 
+  width: 10%; 
+  float: right;
+  
+}
+@keyframes newsAnim {
+  from {
+    margin-right: 100%;
+    width: 100%;
+  }
+
+  to {
+    margin-right: 0%;
+    width: 0%;
+  }
+}
+
+#footer_main{border: saddlebrown solid; text-align: center; clear: both;}
+.note{clear: both;}
